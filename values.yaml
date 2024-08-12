@@ -61,3 +61,9 @@ env:
 # Volume mounts and volumes
 volumes: []
 volumeMounts: []
+
+serviceAccount:
+  create: true
+  name: "" # Leave empty to default to the release name
+  automount: true
+  annotations: {}
